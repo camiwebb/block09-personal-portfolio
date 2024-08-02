@@ -1,5 +1,9 @@
-.header {
+body {
     background-color: aliceblue;
+    font-family: sans-serif;
+}
+.header {
+    background-color: rgb(133, 178, 216);
     padding: 10px 20px;
 }
 h1 {
@@ -11,7 +15,7 @@ h1 {
 nav {
     display: inline;
     font-size: 20px;
-    margin-top: 10px;
+    margin: 30px;
     padding: 20px 20px;
 }
 h2 {
@@ -22,9 +26,12 @@ h2 {
     font-style: italic;
     font-size: 18px;
 }
-body {
-    background-color: lightgray;
-}
 .about {
     text-align: justify;
+}
+.project {
+    text-align: right;
+    background-color: rgb(185, 220, 248);
+    padding: 8px;
+    margin: 15px;
 }
