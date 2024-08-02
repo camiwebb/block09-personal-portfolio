@@ -1,0 +1,26 @@
+.header {
+    background-color: aliceblue;
+    padding: 10px 20px;
+}
+h1 {
+    display: inline;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-right: 300px;
+}
+nav {
+    display: inline;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 20px 20px;
+}
+h2 {
+    font-size: 18px;
+}
+.quote {
+    font-style: italic;
+    font-size: 18px;
+}
+body {
+    background-color: lightgray;
+}
