@@ -28,7 +28,8 @@ h2 {
 }
 img {
     width: 275px;
-  .about {
+}
+.about {
     text-align: justify;
 }
 .project {
@@ -36,3 +37,4 @@ img {
     background-color: rgb(185, 220, 248);
     padding: 8px;
     margin: 15px;
+}
