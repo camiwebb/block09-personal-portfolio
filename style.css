@@ -28,3 +28,6 @@ body {
 .about {
     text-align: justify;
 }
+img {
+    width: 275px;
+}
