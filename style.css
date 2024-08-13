@@ -25,6 +25,7 @@ h1 {
 h2 {
   font-size: 18px;
   text-align: center;
+  box-sizing: border-box;
 }
 .quote {
   font-style: italic;
@@ -64,14 +65,17 @@ a:hover {
   color: whitesmoke;
 }
 .success {
-    background-color: rgb(133, 178, 216);
-    text-align: center;
+  background-color: rgb(133, 178, 216);
+  text-align: center;
 }
 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    max-width: 200px;
-    margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 200px;
+  margin: 30px;
+}
+@media (max-width: 480px) {
+  background-color: orange;
 }
